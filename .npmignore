@@ -1,1 +1,13 @@
 bin/
+coverage/
+flow-typed/
+node_modules/
+src/
+tests/
+.babelrc
+.eslintrc.json
+.flowconfig
+.gitignore
+.gitlab-ci.yml
+yarn.lock
+package-lock.json

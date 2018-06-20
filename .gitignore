@@ -17,3 +17,6 @@ npm-debug.log
 
 # Transpiled code
 lib
+
+yarn.lock
+package-lock.json
