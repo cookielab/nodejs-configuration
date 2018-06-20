@@ -16,6 +16,9 @@
         "check-all": "bin/check-all || true",
         "prepare": "bin/build"
     },
+    "engines": {
+        "node": ">=8.0.0"
+    },
     "dependencies": {
         "dotenv-safe": "4.0.4"
     },
