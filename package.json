@@ -20,7 +20,7 @@
         "node": ">=8.0.0"
     },
     "dependencies": {
-        "dotenv-safe": "4.0.4"
+        "dotenv-safe": "6.0.0"
     },
     "devDependencies": {
         "@cookielab.io/eslint-config-server": "0.0.6",
