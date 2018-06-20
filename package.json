@@ -3,6 +3,10 @@
     "version": "0.0.9",
     "license": "MIT",
     "main": "lib/index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cookielab/nodejs-configuration.git"
+    },
     "scripts": {
         "build": "bin/build",
         "watch": "bin/watch",
