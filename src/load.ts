@@ -1,5 +1,3 @@
-// @flow
-
 import * as dotenv from 'dotenv-safe';
 
 export type Options = {
@@ -7,7 +5,7 @@ export type Options = {
     sample?: string,
 };
 
-const load = (options?: Options = {}): void => {
+const load = (options: Options = {}): void => {
     const defaultOptions = {
         allowEmptyValues: true,
     };

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "outDir": "./lib",
+        "strict": true
+    },
+    "exclude": [
+        "tests/**/*.test.ts"
+    ]
+}
