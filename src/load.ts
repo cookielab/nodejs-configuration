@@ -1,15 +1,6 @@
 import * as dotenv from 'dotenv-safe';
 
-export type Options = {
-    path?: string,
-    example?: string,
-    sample?: string,
-    silent?: boolean,
-    encoding?: string,
-    allowEmptyValues?: boolean,
-};
-
-const load = (options: Options = {}): void => {
+const load = (options: dotenv.DotenvSafeOptions = {}): void => {
     const defaultOptions = {
         allowEmptyValues: true,
     };
