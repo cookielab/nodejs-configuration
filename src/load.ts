@@ -5,7 +5,7 @@ const load = (options: dotenv.DotenvSafeOptions = {}): void => {
 		allowEmptyValues: true,
 	};
 
-	dotenv.load(Object.assign(
+	dotenv.config(Object.assign(
 		{},
 		defaultOptions,
 		options
