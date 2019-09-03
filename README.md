@@ -28,9 +28,9 @@ export default {
 
 ## Api
 
-### `variable(name: string, required?: boolean = true): string`
+### `variable(name: string, defaultValue?: string): string`
 
-Throws an error if the variable is required and not set.
+Throws an error if the variable is not set and does not have default value.
 
 ### `load(options: Object): void`
 
