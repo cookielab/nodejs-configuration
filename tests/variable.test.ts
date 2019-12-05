@@ -10,7 +10,7 @@ describe('environment variable', () => {
 		process.env[emptyString] = ''; // eslint-disable-line no-process-env
 	});
 	afterEach(() => {
-		delete process.env[existingVariable]; // eslint-disable-line no-process-env
+		delete process.env.TEST_VARIABLE; // eslint-disable-line no-process-env
 	});
 
 	it('returns a non-empty variable', () => {
