@@ -18,7 +18,7 @@
     "prepare": "bin/build"
   },
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=10.13.0"
   },
   "dependencies": {
     "@types/dotenv-safe": "^8.0.0",
